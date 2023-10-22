@@ -1,0 +1,140 @@
+body {
+    background-color: rgb(0, 0, 0, 0.85);
+}
+
+/* 그리드 설정 */
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto 1fr auto;
+    grid-template-areas:
+        "header header header"
+        "main main main"
+        "footer footer footer";
+    gap: 10px;
+    height: 100vh;
+}
+
+/* 헤더설정 */
+.header {
+    grid-area: header;
+    color: white;
+    padding: 10px;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+/* 웹페이지로고 및 이름 설정 */
+.page_Logo_Name {
+    cursor: pointer;
+}
+
+.page_Logo_Name a {
+    text-decoration: none;
+}
+
+/* 검색창 컨테이너 설정 */
+.MovieSearch_container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+/* 검색창 설정 */
+.MovieSearch {
+    width: 500px;
+    height: 25px;
+    font-size: medium;
+    background-color: black;
+    color: white;
+}
+
+/* 검색 버튼 설정 */
+.Search_btn {
+    width: 50px;
+    height: 30px;
+    background-color: black;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+/* 메인설정 */
+.main {
+    grid-area: main;
+    padding: 10px;
+    display: flex;
+    gap: 10px;
+}
+
+.movie_container {
+    width: 1600px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: auto;
+}
+
+.movie_card {
+    width: 20%;
+    margin: 10px 10px;
+    padding: 0;
+    border: 1px solid;
+    cursor: pointer;
+}
+
+.movie_card img {
+    max-width: 100%;
+}
+
+.movie_title {
+    text-align: center;
+    font-size:large;
+}
+
+.movie_overview {
+    color: white;
+    font-size: small;
+}
+
+.movie_vote_avg {
+    color: white;
+    font-size: medium;
+}
+
+/* 풋터설정 */
+.footer {
+    grid-area: footer;
+    color: white;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    height: auto;
+}
+
+/* 설명란 설정 */
+.explanation {
+    font-size: small;
+    text-align: left;
+    margin-top: -15px;
+}
+
+.explanation a {
+    text-decoration: none;
+    color: rgb(38, 197, 202);
+}
+
+/* 개발자로고 설정 */
+.DevLogo {
+    display: flex;
+    align-items: flex-end;
+    margin-top: auto;
+}
+
+/* 개발자로고 이미지 설정 */
+.DevLogo img {
+    margin-right: 5px;
+}
