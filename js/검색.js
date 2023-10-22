@@ -1,5 +1,5 @@
 // 각 id 태그에 접근
-const searchbtn = document.getElementById('Search_btn');
+const Searchbtn = document.getElementById('Search_btn');
 const Searchinput = document.getElementById('Search_input');
 
 // 검색한 영화들 표시되는 함수
@@ -37,7 +37,7 @@ function DisplaySearchedMovie(search) {
 }
 
 // 검색버튼에 클릭 이벤트 리스너 등록 및 클릭하였을때 검색하기
-searchbtn.addEventListener("click", function (event) {
+Searchbtn.addEventListener("click", function (event) {
     const search = Searchinput.value;
     DisplaySearchedMovie(search);
 });
@@ -52,7 +52,7 @@ Searchinput.addEventListener("keyup", function (event) {
 
 DisplaySearchedMovie("");
 // 각 id 태그에 접근
-const searchbtn = document.getElementById('Search_btn');
+const Searchbtn = document.getElementById('Search_btn');
 const Searchinput = document.getElementById('Search_input');
 
 // 검색한 영화들 표시되는 함수
@@ -90,7 +90,7 @@ function DisplaySearchedMovie(search) {
 }
 
 // 검색버튼에 클릭 이벤트 리스너 등록 및 클릭하였을때 검색하기
-searchbtn.addEventListener("click", function (event) {
+Searchbtn.addEventListener("click", function (event) {
     const search = Searchinput.value;
     DisplaySearchedMovie(search);
 });
