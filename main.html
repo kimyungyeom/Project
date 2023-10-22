@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>영화 검색 사이트</title>
+
+    <!-- 폰트어썸 CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <div class="container">
+
+        <!-- 헤더부분 시작 -->
+        <header class="header">
+
+            <!-- 웹페이지 메인로고 및 이름 -->
+            <div class="page_Logo_Name">
+                <a href="project.html">
+                    <i class="fa-solid fa-film fa-xl" style="color: white;"></i>
+                    <span style="color: rgb(38, 197, 202);">윤시네마</span>
+                </a>
+            </div>
+
+            <!-- 영화 검색창 및 검색버튼 -->
+            <div class="Search_container">
+                <div class="MovieSearch_container">
+                    <input type="text" id="Search_input" class="MovieSearch" placeholder="영화 제목을 검색해주세요">
+                    <button type="submit" id="Search_btn" class="btn btn-outline-light me-2 Search_btn"><i
+                            class="fa-solid fa-magnifying-glass"></i></button>
+                </div>
+            </div>
+        </header>
+        <!-- 헤더부분 끝 -->
+
+        <!-- 메인 시작 -->
+        <main class="main">
+            <div class="movie_container" id="movie_container">
+
+            </div>
+        </main>
+        <!-- 메인 끝 -->
+        <!-- 풋터부분 시작 -->
+        <footer class="footer">
+            <!-- 웹페이지 설명란 -->
+            <div class="explanation">
+                <p><a href="file:///C:/Users/user/Desktop/project%20me/main.html">윤시네마</a>는 특정 영화를 검색하고 각종 정보를 얻을 수
+                    있는 웹페이지입니다.</p>
+                <!-- <p>또한, 윤시네마는 즐겨찾기 기능을 제공하여 등록한 영화들을 쉽게 찾아볼 수 있도록 도와줍니다.</p> -->
+                <p><span>개발자 : 김윤겸</span></p>
+                <p>연락처 : kgk1599@gmail.com</p>
+                <div> Copyright 2023.김윤겸. All right reserved. </div>
+            </div>
+            <!-- 개발자 티스토리, 깃허브 로고 -->
+            <div class="DevLogo">
+                <a href="https://github.com/kimyungyeom/Project">
+                    <img src="깃허브로고.png" alt="깃허브로고" width="60">
+                </a>
+                <a href="https://kgk1599.tistory.com/">
+                    <img src="티스토리로고.png" alt="티스토리로고" width="100">
+                </a>
+            </div>
+        </footer>
+        <!-- 풋터부분 끝 -->
+
+    </div>
+</body>
+
+</html>
