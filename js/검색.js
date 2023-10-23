@@ -51,9 +51,6 @@ Searchinput.addEventListener("keyup", function (event) {
 });
 
 DisplaySearchedMovie("");
-// 각 id 태그에 접근
-const Searchbtn = document.getElementById('Search_btn');
-const Searchinput = document.getElementById('Search_input');
 
 // 검색한 영화들 표시되는 함수
 function DisplaySearchedMovie(search) {
