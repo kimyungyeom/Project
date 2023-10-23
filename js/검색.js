@@ -42,7 +42,7 @@ Searchbtn.addEventListener("click", function (event) {
     DisplaySearchedMovie(search);
 });
 
-// 검색 입력에 키입력 인벤트 리스너 등록 및 엔터를 눌렀을때 검색하기
+// 검색 입력에 키입력 이벤트 리스너 등록 및 엔터를 눌렀을때 검색하기
 Searchinput.addEventListener("keyup", function (event) {
     if (event.key === "Enter") {
         const search = Searchinput.value;
